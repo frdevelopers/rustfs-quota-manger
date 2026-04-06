@@ -1,0 +1,45 @@
+# ============================================
+# RustFS Quota Manager — .gitignore
+# ============================================
+
+# Local config overrides (never commit credentials)
+config.local.js
+config.local.json
+*.env
+.env
+.env.*
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.bak
+
+# Logs
+logs/
+*.log
+
+# Runtime
+pids/
+*.pid
+*.seed
